@@ -15,7 +15,9 @@ This project is the seventh from the UC Berkeley Coding Boot Camp.  The goal is 
 
 There will also be a badge for the license that is chosen and a link to the license.  The Table of Contents will be dynamically generated based on the user's input.  If the user does not provide certain information, the section will not be included in the README.
 
-The major challenge of this project was to dynamically generate the Table of Contents.  It was important that the user could opt to skip writing the section while still generating it, so a default message was created for every section to ensure the section would be generated unless the user specifically deleted the default message.
+The first major challenge of this project was to dynamically generate the Table of Contents.  It was important that the user could opt to skip writing the section while still generating it, so a default message was created for every section to ensure the section would be generated unless the user specifically deleted the default message.
+
+The other challenge was finding an efficient way to input multi line text.  The Inquirer input option is a single line text field, so the user would have to copy and paste the text into the field if they wanted a section with any level of complexity.  This was not ideal, so I decided to use the Inquirer editor option.  This allowed the user to write the text in a text editor and then copy and paste it into the field.  This was a much better solution.
 
 ## Final Product
 
@@ -44,15 +46,10 @@ Below is a video of the application being used.
 
 <p align="center"><video src="https://user-images.githubusercontent.com/123279032/231547866-47bc9d34-5746-484e-a928-8914c48ad757.mp4" controls="controls" style="max-width: 730px;"></video><p>
 
-
-
-
-
-
-
 And this is the output from the above video.  Notice that because no text was provided in the usage instructions, it excludes both the Usage Instruction Section as well as the Table of Contents link.  
 
 <p align="center"><kbd><img src="./assets/images/example-screenshot.png" alt="example README" style="max-width: 730px;"/> </kbd></p>
+
 ## Credits
 
 ### Resources
@@ -70,6 +67,8 @@ The below resources contributed to the project.
 - [StackOverflow](https://stackoverflow.com/) provided many answers to my questions.
   - [Creating a Table of Contents in Markdown](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents)
   - [Providing a background for images in Markdown](https://stackoverflow.com/questions/37349314/is-it-possible-to-add-border-to-image-in-github-markdown)
+
+- [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-add-videos-on-readme-md-file-in-a-github-repository/) provided the code to embed a video in a README.md file.
   
 ### Collaborators
 
