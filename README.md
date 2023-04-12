@@ -42,6 +42,8 @@ To use the application, follow these steps:
 4. From the root folder, run the command 'node index.js' in your terminal to start the application.
 5. Answer the questions as prompted.  To remove a section from the README, delete all contents from the text field.  Otherwise, it will create the section in the README with the default message of No information provided.
 
+The output will be a file called generatedREADME.md in the root folder of the project.  Be careful, running the application again will overwrite this file!
+
 Below is a video of the application being used.
 
 <p align="center"><video src="https://user-images.githubusercontent.com/123279032/231547866-47bc9d34-5746-484e-a928-8914c48ad757.mp4" controls="controls" style="max-width: 730px;"></video><p>
