@@ -42,7 +42,13 @@ To use the application, follow these steps:
 
 Below is a video of the application being used.
 
-<p align="center"><video src="./assets/videos/Example.mp4" controls="controls" style="max-width: 730px;"></video><p>
+<p align="center"><video src="https://user-images.githubusercontent.com/123279032/231547866-47bc9d34-5746-484e-a928-8914c48ad757.mp4" controls="controls" style="max-width: 730px;"></video><p>
+
+
+
+
+
+
 
 And this is the output from the above video.  Notice that because no text was provided in the usage instructions, it excludes both the Usage Instruction Section as well as the Table of Contents link.  
 
