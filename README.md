@@ -52,6 +52,10 @@ And this is the output from the above video.  Notice that because no text was pr
 
 <p align="center"><kbd><img src="./assets/images/example-screenshot.png" alt="example README" style="max-width: 730px;"/> </kbd></p>
 
+Finally, here is an example showing that the generated README has a functional Table of Contents.
+
+<p align="center"><video src="https://user-images.githubusercontent.com/123279032/236550066-377fb3ac-41f1-4f88-8a89-9d903657022b.mp4" controls="controls" style="max-width: 730px;"></video><p>
+
 ## Credits
 
 ### Resources
